@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    --webkit-font-smoothing :antialiased;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+} */
+
+/* utiliaze class */
+
+.flex {
+    display: flex;
+}
+
+.items {
+    align-items: center;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* start nav bar style */
+.navbar {
+  
+    padding: 30px 80px;
+    height: 40px;
+    background-color: #000;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.logo a p {
+    font-size: 22px;
+    font-weight: 700;
+    font-style: oblique;
+    color: white;
+}
+
+.logo a p:hover {
+    color: #ba0cc5;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+nav .line {
+ width: 1px;
+ height: 31px;
+ background-color: #fff;
+ margin-left: 30px;
+
+}
+
+nav .nav-list {
+    flex-grow: 1 ;
+}
+
+nav .nav-list .list-wrapper{
+    font-family: "poppins";
+    gap: 40px;
+    margin-left: 30px;
+    font-size:20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.list-wrapper li a{
+    color: white;
+}
+
+.list-wrapper li a:hover {
+    color: #ba0cc5;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+.btn {
+ border: none;
+ border-radius: 5px;
+ background-color:#ba0cc5;
+ padding: 10px 23px;
+ font-size: 16px;
+ font-weight: 600;
+ cursor: pointer;
+ color: white;
+
+}
+
+.btn:hover {
+    border: none;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #ba0cc5;
+}
+
+/* start the hero section */
+
+.section {
+    background-image: url("/project 3/assets/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    text-align: center;
+}
+
+.hero-section h1 {
+    max-width: 850px;
+    margin: 0 auto;
+    font-size: 70px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    padding-top: 170px;
+    text-align: center;
+    line-height: 97px;
+}
+
+.hero-section p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #ffffff;
+}
+
+.hero-section .hero-btn {
+    margin-top: 30px;
+}
